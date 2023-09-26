@@ -1,0 +1,38 @@
+.header {
+  background-color: var(--back-header);
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  gap: 37px;
+  margin: 0;
+}
+
+.navbar li {
+  display: flex;
+  height: 103px;
+  align-items: center;
+}
+
+.navbar li a {
+  display: flex;
+  height: 103px;
+  align-items: center;
+  border-top: 3px solid transparent;
+
+  font-family: var(--header-f);
+  font-weight: 600;
+  color: var(--f-white);
+  text-transform: uppercase;
+}
+
+.navbar li a:hover, .navbarItem {
+  color: var(--f-blue);
+  border-color: var(--f-blue);
+}

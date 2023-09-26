@@ -1,0 +1,16 @@
+.footer {
+  background-color: var(--back-footer);
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerContainer p {
+  font-family: var(--primary-f);
+  font-size: var(--copyright-size);
+  color: var(--f-copyright-col);
+  padding: 50px 0;
+}

@@ -1,0 +1,46 @@
+.theGallery {
+  background-color: var(--back-white);
+  padding: 49px 0 110px 0;
+}
+
+.galleryList {
+  display: flex;
+  gap: 30px;
+}
+
+.galleryList li figure {
+  max-width: 270px;
+  max-height: 200px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.caption {
+  position: absolute;
+  font-family: var(--primary-f);
+  font-size: var(--picture-title-size);
+  font-weight: var(--picture-title-weight);
+  color: var(--f-blue);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -30px;
+  margin-left: 70px;
+}
+
+.galleryList li p {
+  font-family: var(--primary-f);
+  font-size: var(--feature-text-size);
+  font-weight: var(--feature-text-weight);
+  color: var(--f-dark-grey);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.plus {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: -110px;
+  margin-left: 122px;
+}

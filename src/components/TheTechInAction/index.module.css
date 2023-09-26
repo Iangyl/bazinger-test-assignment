@@ -1,0 +1,57 @@
+.theTechInAction {
+  max-width: 1480px;
+  width: 100%;
+  height: 550px;
+  margin: 0 auto;
+  background-image: url('../../assets//pictures/tech-in-action.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: inherit;
+}
+
+.container h1 {
+  font-family: var(--primary-f);
+  font-size: var(--video-title-size);
+  font-weight: var(--video-title-weight);
+  margin-top: 38px;
+  margin-bottom: 26px;
+}
+
+.container h1 span {
+  font-family: var(--primary-f);
+  font-size: var(--video-title-size);
+  font-weight: var(--video-title-weight2);
+  color: var(--video-title-col);
+}
+
+.container p {
+  max-width: 673px;
+  width: 100%;
+  font-family: var(--primary-f);
+  font-size: var(--video-subtitle-size);
+  font-weight: var(--video-subtitle-weight);
+  color: var(--video-subtitle-col);
+  text-align: center;
+}
+
+.button {
+  background: var(--btn-transparent);
+  border: 2px solid var(--btn-white);
+  padding: 20px 43px 20px 42px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}

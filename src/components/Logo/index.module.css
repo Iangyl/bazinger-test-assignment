@@ -1,0 +1,27 @@
+.logoContainer {
+  margin-top: 14px;
+  cursor: default;
+  user-select: none;
+}
+
+.name span {
+  font-family: var(--header-f);
+  font-size: var(--logo-size);
+  font-weight: 700;
+}
+
+.name span:first-of-type {
+  color: var(--f-white);
+}
+
+.name span:last-of-type {
+  color: var(--f-blue);
+}
+
+.signal {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  margin-left: 40.5px;
+  margin-top: -20px;
+}
