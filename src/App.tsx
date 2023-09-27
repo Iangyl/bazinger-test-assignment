@@ -5,7 +5,6 @@ import PageWrapper from './components/PageWrapper';
 import TheTechInAction from './components/TheTechInAction';
 
 function App() {
-  const api = process.env.REACT_APP_MAP_API_KEY;
   return (
     <PageWrapper>
       <TheFeatures />
