@@ -11,26 +11,20 @@
   --copyright-size: 12px;
   --video-title-size: 48px;
   --block-title-size: 36px;
-  --placeholder-size: 14px;
   --feature-text-size: 13px;
-  --contact-title-size: 36px;
   --feature-title-size: 15px;
   --picture-title-size: 15px;
-  --button-caption-size: 15px;
   --video-subtitle-size: 18px;
   --block-subtitle-size: 20px;
   /* font weights */
   --block-title-weight: 900;
   --video-title-weight: 100;
-  --placeholder-weight: 400;
   --video-title-weight2: 700;
   --feature-text-weight: 400;
   --feature-title-weight: 700;
   --picture-title-weight: 700;
-  --contact-title-weight: 700;
   --video-subtitle-weight: 100;
   --block-subtitle-weight: 100;
-  --button-caption-weight: 700;
   /* font colors */
   --f-white: #FFFFFF;
   --f-blue: #4bcaff;
@@ -39,10 +33,7 @@
   --f-grey: #d3d3d3;
   --f-copyright-col: #fefefe;
   --video-title-col: var(--f-white);
-  --contact-title-col: var(--f-white);
   --video-subtitle-col: var(--f-white);
-  --placeholder-col: var(--f-grey);
-  --button-caption-col: var(--f-blue);
   /* background colors */
   --back-white: #FFFFFF;
   --back-light-grey: #f9f9f9;
@@ -50,7 +41,6 @@
   --back-feature-col-hover: #414042;
   --back-footer: #414042;
   --back-header: rgba(0, 0, 0, .3);
-  --back-contact-form: rgba(75, 202, 255, .8);
   /* button colors */
   --btn-white: #FFFFFF;
   --btn-blue: #4bcaff;
@@ -95,10 +85,5 @@
   font-weight: var(--block-subtitle-weight);
   color: var(--f-dark);
   margin-bottom: 0;
-}
-
-.map-container {
-  height: 100%;
-  width: 100%;
 }
 
