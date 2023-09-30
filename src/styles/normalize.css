@@ -110,3 +110,11 @@ img {
 .list-type-reset {
   list-style: none;
 }
+
+.axis-vertical {
+  display: none;
+}
+
+.carousel-status {
+  display: none;
+}

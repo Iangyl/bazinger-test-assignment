@@ -1,0 +1,32 @@
+.active {
+  --back-color: var(--btn-blue);
+}
+
+.inactive {
+  --back-color: var(--btn-dark-blue);
+}
+
+.arrow {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  background-color: var(--back-color);
+  border-radius: 50%;
+  border: none;
+  z-index: 100;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.arrow:first-of-type {
+  margin-top: 500px;
+  margin-left: 71px;
+}
+
+.arrow:last-of-type {
+  margin-top: -532px;
+  margin-left: 1770px;
+}

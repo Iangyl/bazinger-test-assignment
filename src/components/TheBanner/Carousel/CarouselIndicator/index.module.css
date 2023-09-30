@@ -1,0 +1,26 @@
+.active {
+  --dot-size: 18px;
+  --back-dot-col: #4bcaff;
+  --border-dot-col: #4bcaff;
+  --back-hover-dot-col: #03b3ff;
+}
+
+.inactive {
+  --dot-size: 12px;
+  --back-dot-col: transparent;
+  --border-dot-col: white;
+  --back-hover-dot-col: rgba(161, 239, 255, 0.5);
+}
+
+.dot {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  background-color: var(--back-dot-col);
+  border: 1px solid var(--border-dot-col);
+  border-radius: 50%;
+}
+
+.dot:hover {
+  cursor: pointer;
+  background-color: var(--back-hover-dot-col);
+}

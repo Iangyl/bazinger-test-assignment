@@ -1,5 +1,8 @@
 .header {
+  width: 100%;
   background-color: var(--back-header);
+  position: fixed;
+  z-index: 1000;
 }
 
 .navContainer {
