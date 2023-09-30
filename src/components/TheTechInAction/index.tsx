@@ -1,12 +1,18 @@
 import styles from './index.module.css';
 import playIcon from '../../assets/icons/play.svg';
+import { useModal } from '../ModalProvider/ModalProvider';
 
 const TheTechInAction = () => {
+  const { openModal } = useModal();
   return (
     <section className={styles.theTechInAction}>
       <div className={`wrapper ${styles.container}`}>
-        <button type='button' className={styles.button}>
-          {playIcon ? <img src={playIcon} alt=''/> : 'Play'}
+        <button
+          type="button"
+          className={styles.button}
+          onClick={() => openModal()}
+        >
+          {playIcon ? <img src={playIcon} alt="" /> : 'Play'}
         </button>
         <h1>
           Watch the best Technology in <span>Action</span>

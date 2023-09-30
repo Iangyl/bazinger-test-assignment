@@ -1,0 +1,37 @@
+.modal {
+  position: relative;
+}
+
+.modal iframe {
+  width: 1120px;
+  height: 700px;
+  border: none;
+}
+
+.modal button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.modal button::before,
+.modal button::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.modal button::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
