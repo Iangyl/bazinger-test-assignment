@@ -14,3 +14,9 @@
   color: var(--f-copyright-col);
   padding: 50px 0;
 }
+
+@media screen and (max-width: 425px) {
+  .footerContainer {
+    padding: 0 12px;
+  }
+}

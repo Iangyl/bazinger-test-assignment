@@ -1,3 +1,6 @@
+/* Add this to your existing CSS */
+
+/* Header styles */
 .header {
   width: 100%;
   background-color: var(--back-header);
@@ -28,14 +31,89 @@
   height: 103px;
   align-items: center;
   border-top: 3px solid transparent;
-
   font-family: var(--header-f);
   font-weight: 600;
   color: var(--f-white);
   text-transform: uppercase;
 }
 
-.navbar li a:hover, .navbarItem {
+.navbar li a:hover,
+.navbarItem {
   color: var(--f-blue);
   border-color: var(--f-blue);
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.menuButton .burgerIcon {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: var(--f-white);
+  margin: 6px auto;
+  transition: 0.4s;
+}
+
+.menuButton.close .burgerIcon:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 7px);
+}
+
+.menuButton.close .burgerIcon:nth-child(2) {
+  opacity: 0;
+}
+
+.menuButton.close .burgerIcon:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.menuButton.open {
+  display: block;
+}
+
+.openMenu {
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  background-color: var(--back-header);
+  padding: 20px;
+  border: 1px solid var(--f-blue);
+  z-index: 1001;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menuButton {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar li, .navbar li a {
+    height: fit-content;
+  }
+
+  .openMenu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 425px) {
+  .navContainer {
+    padding: 0 12px;
+  }
 }

@@ -107,6 +107,10 @@ img {
   margin-right: auto;
 }
 
+ul {
+  padding: 0;
+}
+
 .list-type-reset {
   list-style: none;
 }

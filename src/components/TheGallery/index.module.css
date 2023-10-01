@@ -44,3 +44,33 @@
   margin-top: -110px;
   margin-left: 122px;
 }
+
+@media screen and (max-width: 1024px) {
+  .caption {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .galleryList {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .galleryList li{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .caption {
+    font-size: 18px;
+    margin-top: -35px;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .galleryList li{
+    width: 270px;
+  }
+}

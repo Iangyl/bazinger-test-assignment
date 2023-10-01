@@ -17,7 +17,7 @@
   margin-bottom: 24px;
 }
 
-.carouselItem h1 > span {
+.carouselItem h1>span {
   font-weight: var(--banner-title-weight2);
 }
 
@@ -102,3 +102,5 @@
 .linkContainer div:first-of-type {
   margin-left: 15px;
 }
+
+@media screen and (max-width: 1440px) {}

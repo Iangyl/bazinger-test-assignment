@@ -45,3 +45,32 @@
   border-radius: 50%;
   background-color: var(--back-feature-col);
 }
+
+@media screen and (max-width: 1024px) {
+  .featuresList {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .featuresList {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .featuresList li {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .featuresList li {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .featuresList li {
+    width: 275px;
+  }
+}
