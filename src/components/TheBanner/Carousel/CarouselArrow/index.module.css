@@ -30,3 +30,30 @@
   margin-top: -532px;
   margin-left: 1770px;
 }
+
+@media screen and (max-width: 1440px) {
+  .arrow:first-of-type {
+    margin-top: 420px;
+  }
+  
+  .arrow:last-of-type {
+    margin-top: -370px;
+    margin-left: 1350px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .arrow:first-of-type {
+    margin-top: 320px;
+  }
+  
+  .arrow:last-of-type {
+    margin-top: -250px;
+    margin-left: 910px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .arrow {
+    display: none;
+  }
+}

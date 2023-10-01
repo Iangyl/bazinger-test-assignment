@@ -68,7 +68,6 @@
 }
 
 .linkContainer span {
-  margin-left: 22px;
   font-family: var(--primary-f);
   font-size: 18px;
   font-weight: 100;
@@ -103,4 +102,144 @@
   margin-left: 15px;
 }
 
-@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1440px) {
+  .container {
+    margin-top: -590px;
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-top: -420px;
+    margin-left: 440px;
+  }
+  .carouselItem h1 {
+    font-size: 32px;
+  }
+  .carouselItem p {
+    font-size: 15px;
+    max-width: 490px;
+  }
+  .btnContainer button {
+    padding: 18px 42px;
+    font-size: var(--btn-banner-font-size);
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: -320px;
+    margin-left: 340px;
+  }
+  .carouselItem h1 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .carouselItem p {
+    font-size: 12px;
+    max-width: 380px;
+    margin-bottom: 12px;
+  }
+  .btnContainer button {
+    padding: 10px 22px;
+    font-size: 12px;
+  }
+  .linkContainer span {
+    font-size: 15px;
+  }
+  .linkContainer > div {
+    padding: 10px;
+  }
+  .linkContainer > div > img:first-of-type {
+    width: 13px;
+    height: 18px;
+  }
+  
+  .linkContainer div img:last-of-type {
+    width: 14px;
+    height: 20px;
+  }
+  .btnContainer {
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    margin-top: -820px;
+    margin-left: 40px;
+    max-width: 350px;
+    width: 100%;
+  }
+  .carouselItem h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .carouselItem p {
+    font-size: 15px;
+    max-width: 350px;
+    margin-bottom: 38px;
+  }
+  .btnContainer {
+    flex-direction: column-reverse;
+  }
+  .btnContainer button {
+    padding: 27px 52px;
+    font-size: var(--btn-banner-font-size);
+  }
+  .linkContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .linkContainer span {
+    font-size: 18px;
+    flex-basis: 100%;
+  }
+  .linkContainer > div {
+    padding: 15px;
+    margin-left: 0;
+  }
+  .linkContainer div:first-of-type {
+    margin-left: 0;
+  }
+  .linkContainer div img:first-of-type {
+    width: 21px;
+    height: 26px;
+  }
+  
+  .linkContainer div img:last-of-type {
+    width: 23px;
+    height: 25px;
+  }
+  .btnContainer {
+    margin-bottom: 49px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    margin-top: -720px;
+    margin-left: 20px;
+    max-width: 350px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 325px) {
+  .container {
+    margin-top: -620px;
+    margin-left: 0;
+    max-width: 350px;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .carouselItem p {
+    max-width: 290px;
+    margin-bottom: 20px;
+  }
+  .btnContainer button {
+    padding: 22px 46px;
+    font-size: var(--btn-banner-font-size);
+  }
+  .btnContainer {
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+}
