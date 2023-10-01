@@ -35,3 +35,42 @@
 .modal button::after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+@media screen and (max-width: 1024px) {
+  .modal iframe {
+    width: 900px;
+    height: 500px;
+    margin-top: 60px;
+  }
+  .modal button {
+    top: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal iframe {
+    width: 600px;
+    height: 400px;
+    margin-top: 0;
+  }
+  .modal button {
+    top: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .modal iframe {
+    width: 350px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .modal iframe {
+    width: 300px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .modal iframe {
+    width: 250px;
+    height: 200px;
+  }
+}
