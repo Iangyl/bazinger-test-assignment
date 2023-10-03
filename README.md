@@ -21,3 +21,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Adaptive
+
+The design estimated for several standard width values: `320px`, `375px`, `425px`, `768px`, `1024px` and `1440px`.
